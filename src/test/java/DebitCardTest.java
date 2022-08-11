@@ -84,7 +84,7 @@ public class DebitCardTest {
 
     @Test
     void shouldSendFormNameWithYOLetter() {
-        driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Алена Иванова");
+        driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Алёна Иванова");
         driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79031234567");
         driver.findElement(By.cssSelector("[data-test-id=agreement]")).click();
         driver.findElement(By.tagName("button")).click();
